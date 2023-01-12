@@ -200,12 +200,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "audiosphere",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/audiosphere.jar"],
-}
-
-dex_import {
 	name: "com.fingerprints.extension",
 	owner: "xiaomi",
 	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
@@ -286,6 +280,13 @@ dex_import {
 	name: "vendor.qti.ims.rcsconfig-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "audiosphere",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
 	system_ext_specific: true,
 }
 
