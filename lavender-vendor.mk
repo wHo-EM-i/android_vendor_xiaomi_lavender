@@ -1216,6 +1216,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libmibokeh_660.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_660.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libminikin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminikin.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
+    vendor/xiaomi/lavender/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
@@ -1574,7 +1575,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
-    vendor/xiaomi/lavender/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmipassthru.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/xiaomi/lavender/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
